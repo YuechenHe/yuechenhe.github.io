@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuechen He — Ph.D. student working in chip design. Publications, chip gallery, education, work, photography and cycling.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yuechen He | Academic Website">
+  <meta property="og:description" content="Chip design, education and life outside the lab.">
+  <title>Yuechen He | Academic Website</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./content.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="header-inner">
+      <a class="site-name" href="#top" data-profile-name>Yuechen He</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="primaryNav" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="primaryNav" class="primary-nav" aria-label="Main navigation">
+        <a href="#publications">Publications</a>
+        <a href="#chip-gallery">Chip Gallery</a>
+        <a href="#education">Education</a>
+        <a href="#work">Work</a>
+        <a href="#life">Life</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile">
+      <div class="profile-avatar" id="profileAvatar" aria-hidden="true">YH</div>
+      <div class="profile-copy">
+        <p class="profile-name" data-profile-name>Yuechen He</p>
+        <p class="profile-role" id="profileRole">Ph.D. student<br>Chip design</p>
+        <p class="profile-meta" id="profileAffiliation">New York University</p>
+        <p class="profile-meta" id="profileLocation">New York, NY</p>
+        <ul class="profile-links" id="profileLinks">
+          <li><a href="https://www.linkedin.com/in/yuechenhe/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section class="introduction" aria-labelledby="about-title">
+        <h1 id="about-title">About me</h1>
+        <div id="aboutCopy">
+          <p>I am Yuechen He, a Ph.D. student at New York University working in chip design.</p>
+          <p>Outside my academic work, I enjoy photography and cycling.</p>
+        </div>
+        <p class="intro-links"><a href="#chip-gallery">Chip projects</a><span aria-hidden="true">·</span><a href="#education">Education &amp; coursework</a><span aria-hidden="true">·</span><a href="#contact">Contact</a></p>
+      </section>
+
+      <noscript><p class="notice">JavaScript is disabled. The introduction and navigation are available; enable JavaScript to view the editable project, education and course records.</p></noscript>
+
+      <section class="content-section" id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <div id="publicationList"><p class="muted">Publication details to be added.</p></div>
+      </section>
+
+      <section class="content-section" id="chip-gallery" aria-labelledby="chips-title">
+        <h2 id="chips-title">Chip Gallery</h2>
+        <p class="section-intro">Integrated circuits, layouts and the work behind them.</p>
+        <div class="chip-grid" id="chipGallery"></div>
+      </section>
+
+      <section class="content-section" id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div id="educationList"></div>
+        <div class="coursework" id="coursework">
+          <h3>Coursework</h3>
+          <p class="muted" id="courseNote">A partial course record. Additional courses, instructors and grades will be added.</p>
+          <div class="course-controls" id="courseControls" hidden>
+            <label for="courseSearch">Search coursework<input id="courseSearch" type="search" placeholder="Course, topic or instructor" autocomplete="off" aria-controls="courseList"></label>
+            <label for="courseFilter">Subject<select id="courseFilter" aria-controls="courseList"><option value="all">All subjects</option></select></label>
+          </div>
+          <div id="courseList" class="course-list"></div>
+          <p id="courseCount" class="small muted" role="status"></p>
+          <p id="courseEmpty" class="muted" hidden>No matching courses. Try another search or subject.</p>
+          <details class="course-placeholder">
+            <summary>Additional coursework — details to be added</summary>
+            <dl class="record-details"><div><dt>Course</dt><dd>To be added</dd></div><div><dt>Content summary</dt><dd>To be added</dd></div><div><dt>Instructor</dt><dd>Not provided</dd></div><div><dt>Term</dt><dd>Not provided</dd></div><div><dt>Grade</dt><dd>Not provided</dd></div></dl>
+          </details>
+        </div>
+      </section>
+
+      <section class="content-section" id="work" aria-labelledby="work-title">
+        <h2 id="work-title">Work</h2>
+        <h3>Research &amp; professional experience</h3>
+        <div id="experienceList"><p class="muted">Positions, organizations and dates to be added.</p></div>
+        <h3 class="subheading">Selected design work</h3>
+        <div id="projectList"></div>
+      </section>
+
+      <section class="content-section" id="life" aria-labelledby="life-title">
+        <h2 id="life-title">Life</h2>
+        <p>Outside my academic work, I enjoy photography and cycling.</p>
+        <h3>Photography</h3>
+        <div class="photo-grid" id="photoGallery"></div>
+        <h3 class="subheading">Cycling</h3>
+        <div id="cyclingStories"></div>
+      </section>
+
+      <section class="content-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For research and professional connections, you can find me on:</p>
+        <ul class="contact-links" id="contactLinks"><li><a href="https://www.linkedin.com/in/yuechenhe/">LinkedIn</a></li></ul>
+        <p class="muted small" id="contactNote">Email and additional profile links to be added.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer"><div class="footer-inner"><span>© <span id="copyrightYear">2026</span> <span data-profile-name>Yuechen He</span></span><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog class="gallery-dialog" id="galleryDialog" aria-labelledby="dialogTitle" aria-describedby="dialogDescription">
+    <button class="dialog-close" id="dialogClose" type="button" autofocus>Close <span aria-hidden="true">×</span></button>
+    <div id="dialogMedia"></div>
+    <h2 id="dialogTitle"></h2>
+    <p id="dialogDescription"></p>
+    <p id="dialogSource" class="small"></p>
+  </dialog>
+</body>
+</html>
