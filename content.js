@@ -110,7 +110,6 @@ window.PORTFOLIO = {
   // No job title, employer or employment dates were reliably accessible.
   // Example fields: { title: "", organization: "", dates: "", description: "", url: "" }
   experience: [
-    experience: [
   {
     title: "Research Assistant",
     organization: "New York University · RAISE Lab",
@@ -153,7 +152,6 @@ window.PORTFOLIO = {
     description: "Analyzed impact ionization in devices with positively and negatively beveled edges using an analytical model adapted from Xingbi Chen's work. Compared theoretical breakdown voltage, maximum electric field, specific on-resistance, and a modified figure of merit across wide-bandgap materials, including 4H-SiC, GaN, β-Ga₂O₃, and diamond. Used MEDICI and MATLAB.",
     url: "https://www.linkedin.com/in/yuechenhe/"
   }
-],
   ],
   projects: [
     {
