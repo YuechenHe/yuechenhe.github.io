@@ -52,13 +52,37 @@ window.PORTFOLIO = {
     {
       title: "LVSensor",
       category: "Sensor readout IC",
-      status: "Fabricated and tested · TSMC 65 nm",
-      image: "",
+      status: "Fabricated and tested · TSMC 65nm GP",
+      image: "./assets/LVSensor.png",
       alt: "",
-      imagePlaceholder: "Die photograph to be added",
+      imagePlaceholder: "Chip Level Layout and Die photograph",
       description: "A low-power front end for humidity and temperature sensing, developed with Yingrui Wei and Siyuan Xu.",
-      detail: "LVSensor combines capacitive humidity sensing and resistive temperature sensing. The Columbia project page documents design, fabrication and testing in TSMC 65 nm. Team: Yingrui Wei, Yuechen He and Siyuan Xu; faculty guidance: Peter Kinget. An original die photograph and individual contribution details can be added here.",
+      detail: "LVSensor combines capacitive humidity sensing and resistive temperature sensing. The Columbia project page documents design, fabrication and testing in TSMC 65 nm. Team: Yingrui Wei, Yuechen He and Siyuan Xu; faculty guidance: Peter Kinget.",
       url: "https://www.ee.columbia.edu/~kinget/EE6350_S24/LVSENSOR/index.html",
+      sourceLabel: "Project website"
+    },
+    {
+      title: "BIOSYNC",
+      category: "Implantable Drug Delivery System",
+      status: "Fabricated · GF 55nm BCD",
+      image: "./assets/BIOSYNCv1.png",
+      alt: "",
+      imagePlaceholder: "Chip Level Layout",
+      description: "A drug delivery system chip with SPAD and electrodes array, driving and control circuits, 13.56MHz WPT and PMIC, and TX/RX onchip, developed with Alex, JT Yan and Berk in Bioelectronic System Lab in Columbia University.",
+      detail: "The project develops BIOSYNC, a flexible subdermal implant treating obesity and type-2 diabetes. Using implanted cells, this closed-loop device provides controlled release of peptide satiety signals to accelerate meal termination and weight control while reducing injection barriers and gastrointestinal side effects.",
+      url: "https://arpa-h.gov/explore-funding/awards/3316",
+      sourceLabel: "Project website"
+    },
+    {
+      title: "MOSBIUS",
+      category: "Analog Chip for Teaching Purpose",
+      status: "Fabricated and Tested· TSMC 180nm GP",
+      image: "./assets/mosbius_v2.png",
+      alt: "",
+      imagePlaceholder: "Chip Level Layout and Die photograph",
+      description: "The MOSbius chip contains nMOS and pMOS devices as individual transistors, as well as in typical configurations like current mirrors, differential pairs, common source configuration, simple operational transconductance amplifiers or inverters.",
+      detail: "I helped develop the lab experiments and lead the lab sessions in 2024 Fall 4312 and the second version of MOSBius. Toggle (V2) adds programmable transistor sizes and switched buses driven by an on-chip non-overlapping clock generator, so that circuits such as switched-capacitor amplifiers can be built and programmed on the chip. ",
+      url: "https://mosbius.org/0_front_matter/intro.html",
       sourceLabel: "Project website"
     }
   ],
