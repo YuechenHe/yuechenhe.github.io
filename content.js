@@ -51,7 +51,7 @@ window.PORTFOLIO = {
   chips: [
     {
       title: "LVSensor",
-      category: "Sensor readout IC",
+      category: "Sensor Readout IC",
       status: "Fabricated and tested · TSMC 65nm GP",
       image: "./assets/LVSensor.png",
       alt: "",
@@ -75,7 +75,7 @@ window.PORTFOLIO = {
     },
     {
       title: "MOSBIUS",
-      category: "Analog Chip for Teaching Purpose",
+      category: "Programmable Chip for Teaching",
       status: "Fabricated and Tested· TSMC 180nm GP",
       image: "./assets/mosbius_v2.png",
       alt: "",
